@@ -1,0 +1,73 @@
+/* ============================================================
+   CSS RESET
+   ============================================================ */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* ============================================================
+   DESIGN TOKENS
+   ============================================================ */
+:root {
+  /* Colors */
+  --color-bg: #FAFAFA;
+  --color-bg-card: #FFFFFF;
+  --color-text: #1A1A1A;
+  --color-text-muted: #6B7280;
+  --color-text-light: #9CA3AF;
+  --color-accent-purple: #7F77DD;
+  --color-accent-teal: #1D9E75;
+  --color-accent-gradient: linear-gradient(135deg, #AFA9EC, #5DCAA5);
+
+  /* Tag colors */
+  --color-tag-fintech-bg: #EEEDFE;
+  --color-tag-fintech-text: #534AB7;
+  --color-tag-ai-bg: #E1F5EE;
+  --color-tag-ai-text: #0F6E56;
+  --color-tag-vibe-bg: #FAEEDA;
+  --color-tag-vibe-text: #854F0B;
+
+  /* Badge colors */
+  --color-badge-live-bg: #E1F5EE;
+  --color-badge-live-text: #0F6E56;
+  --color-badge-building-bg: #FAEEDA;
+  --color-badge-building-text: #854F0B;
+  --color-badge-soon-bg: #F1EFE8;
+  --color-badge-soon-text: #5F5E5A;
+
+  /* Typography */
+  --font-display: "Sora", sans-serif;
+  --font-body: "DM Sans", sans-serif;
+  --font-mono: "JetBrains Mono", "Fira Code", monospace;
+
+  /* Layout */
+  --max-width: 640px;
+  --spacing-section: 4rem;
+}
+
+/* ============================================================
+   BASE
+   ============================================================ */
+body {
+  background: var(--color-bg);
+  font-family: var(--font-body);
+  color: var(--color-text);
+  line-height: 1.7;
+  font-size: 16px;
+}
+
+/* ============================================================
+   LAYOUT
+   ============================================================ */
+.container {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+/* Section spacing */
+section {
+  padding: var(--spacing-section) 0;
+}
