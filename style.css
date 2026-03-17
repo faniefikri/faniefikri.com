@@ -344,3 +344,50 @@ footer p {
   font-size: 0.8rem;
   color: var(--color-text-light);
 }
+
+/* ============================================================
+   RESPONSIVE — MOBILE (< 640px)
+   ============================================================ */
+@media (max-width: 639px) {
+  .container {
+    padding: 0 1.25rem;
+  }
+
+  .hero-name {
+    font-size: 1.6rem;
+  }
+
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-social {
+    gap: 0.5rem;
+  }
+
+  /* Ensure touch targets are at least 44px */
+  .hero-social a {
+    padding: 0.75rem;
+  }
+}
+
+/* ============================================================
+   RESPONSIVE — TABLET (640px - 1024px)
+   ============================================================ */
+@media (min-width: 640px) and (max-width: 1024px) {
+  .projects-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* ============================================================
+   RESPONSIVE — GENERAL SAFETY
+   ============================================================ */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+body {
+  overflow-x: hidden;
+}
