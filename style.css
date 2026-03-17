@@ -307,3 +307,40 @@ section {
   color: var(--color-text-light);
   margin-top: 1rem;
 }
+
+/* ============================================================
+   CONTACT
+   ============================================================ */
+.contact-text {
+  font-size: 1rem;
+  color: var(--color-text-muted);
+  margin-bottom: 1rem;
+}
+
+.contact-email {
+  color: var(--color-accent-purple);
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.contact-email:hover {
+  text-decoration: underline;
+}
+
+.contact-social {
+  margin-top: 1.5rem;
+}
+
+/* ============================================================
+   FOOTER
+   ============================================================ */
+footer {
+  border-top: 1px solid #E5E7EB;
+  padding: 2rem 0;
+  text-align: center;
+}
+
+footer p {
+  font-size: 0.8rem;
+  color: var(--color-text-light);
+}
