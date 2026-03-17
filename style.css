@@ -271,3 +271,39 @@ section {
   font-size: 0.75rem;
   color: var(--color-text-light);
 }
+
+/* ============================================================
+   NOW
+   ============================================================ */
+.now-heading {
+  margin-bottom: 0.25rem;
+}
+
+.now-subheading {
+  font-size: 0.9rem;
+  color: var(--color-text-light);
+  margin-bottom: 1rem;
+}
+
+.now-list {
+  list-style: none;
+  border-left: 3px solid var(--color-accent-teal);
+  padding-left: 1rem;
+}
+
+.now-list li {
+  font-size: 0.95rem;
+  color: var(--color-text-muted);
+  line-height: 1.7;
+  margin-bottom: 0.5rem;
+}
+
+.now-list li:last-child {
+  margin-bottom: 0;
+}
+
+.now-updated {
+  font-size: 0.75rem;
+  color: var(--color-text-light);
+  margin-top: 1rem;
+}
