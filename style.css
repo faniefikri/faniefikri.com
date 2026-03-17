@@ -171,3 +171,23 @@ section {
 .hero-social a:hover {
   color: var(--color-text);
 }
+
+/* ============================================================
+   ABOUT
+   ============================================================ */
+.section-heading {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+#about p {
+  font-size: 1rem;
+  color: var(--color-text);
+  line-height: 1.7;
+  margin-bottom: 1rem;
+}
+
+#about p:last-child {
+  margin-bottom: 0;
+}
