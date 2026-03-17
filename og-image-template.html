@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OG Image Template — faniefikri.com</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700&family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,400&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background: #f0f0f0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      font-family: "DM Sans", sans-serif;
+    }
+
+    /* The og:image canvas — screenshot this exact div */
+    .og-canvas {
+      width: 1200px;
+      height: 630px;
+      background: #FFFFFF;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 0;
+    }
+
+    .og-avatar {
+      width: 96px;
+      height: 96px;
+      border-radius: 50%;
+      background: linear-gradient(135deg, #AFA9EC, #5DCAA5);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #FFFFFF;
+      font-family: "Sora", sans-serif;
+      font-weight: 600;
+      font-size: 32px;
+      margin-bottom: 2rem;
+    }
+
+    .og-name {
+      font-family: "Sora", sans-serif;
+      font-size: 3.5rem;
+      font-weight: 700;
+      color: #1A1A1A;
+      margin-bottom: 1rem;
+    }
+
+    .og-oneliner {
+      font-size: 1.5rem;
+      color: #6B7280;
+    }
+  </style>
+</head>
+<body>
+  <!--
+    INSTRUCTIONS:
+    1. Open this file in your browser
+    2. Screenshot the white box (1200x630px)
+    3. Save as assets/og-image.png
+  -->
+  <div class="og-canvas">
+    <div class="og-avatar">FF</div>
+    <h1 class="og-name">Fanie Fikri</h1>
+    <p class="og-oneliner">Fintech strategist turned AI builder. Shipping from Jakarta.</p>
+  </div>
+</body>
+</html>
